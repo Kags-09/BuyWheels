@@ -96,7 +96,7 @@ function check_email(e_p){
 
 
 function redirect() {
-    window.location.href = "../index.html";
+    window.location.href = "./index.html";
 }
 
 init();
