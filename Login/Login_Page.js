@@ -62,7 +62,7 @@ function validate()
 
 function redirect() {
     let timeout = setInterval(function(){
-        window.location.href = "../Main_Page.html";
+        window.location.href = "./Main_Page.html";
         window.clearInterval(timeout);
     },10)
     
