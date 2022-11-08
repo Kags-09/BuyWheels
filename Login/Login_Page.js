@@ -61,10 +61,8 @@ function validate()
 }
 
 function redirect() {
-    let timeout = setInterval(function(){
-        window.location.href = "./BuyWheels/Main_Page.html";
-        window.clearInterval(timeout);
-    },10)
+    window.location.href = "https://kags-09.github.io/BuyWheels/Main_Page.html";
+       
     
 }
 
